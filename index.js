@@ -1,8 +1,8 @@
 // QUESTION 1
-let value1 = 15;
-let value2 = 3;
-let multiply = value1 * value2;
-console.log(multiply); 
+function multiply (value1, value2) {
+    return value1 * value2;
+}
+console.log(multiply(15,3)); 
 
 // QUESTION 2
 let firstName = "Wuraola Suliat";
